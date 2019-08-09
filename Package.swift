@@ -6,7 +6,7 @@
 // software distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-// swift-tools-version:3.1
+// swift-tools-version:4.0
 
 import PackageDescription
 
