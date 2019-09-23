@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .target(
             name: "LayoutKit",
-            path: "Sources/Internal"
+            path: "Sources"
         )
     ]
 )
