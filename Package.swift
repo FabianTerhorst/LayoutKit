@@ -12,7 +12,7 @@ import PackageDescription
 
 let package = Package(
     name: "LayoutKit",
-    platforms: [.iOS(.v9), .watchOS(.v6)],
+    platforms: [.iOS(.v9)],
     products: [
         .library(name: "LayoutKit", targets: ["LayoutKit"])
     ],
