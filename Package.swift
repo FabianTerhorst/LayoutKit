@@ -7,9 +7,19 @@
 // software distributed under the License is distributed on an "AS IS" BASIS,
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 import PackageDescription
 
 let package = Package(
-    name: "LayoutKit"
+    name: "LayoutKit",
+    platforms: [.iOS(.v9), .watchOS(.v6)],
+    products: [
+        .library(name: "LayoutKit", targets: ["LayoutKit"])
+    ],
+    targets: [
+        .target(
+            name: "LayoutKit",
+            path: "Sources/Internal"
+        )
+    ]
 )
