@@ -14,7 +14,7 @@ let package = Package(
     name: "LayoutKit",
     platforms: [.iOS(.v9)],
     products: [
-        .library(name: "LayoutKit", type: .dynamic, targets: ["LayoutKit"])
+        .library(name: "LayoutKit", targets: ["LayoutKit"])
     ],
     targets: [
         .target(
